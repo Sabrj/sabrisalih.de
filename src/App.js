@@ -27,6 +27,7 @@ export default function Page() {
       "Wouldn't you reconsider?",
       "Is that your final answer?",
       "You're breaking my heart ;(",
+      "okay",
     ];
 
     return phrases[Math.min(noCount, phrases.length - 1)];
